@@ -1,0 +1,39 @@
+{
+  // 使用 IntelliSense 了解相关属性。
+  // 悬停以查看现有属性的描述。
+  // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Package",
+      "type": "go",
+      "request": "launch",
+      "mode": "auto",
+      "program": "${workspaceFolder}/example/main.go",
+      "args": [
+        "--redirect-url=http://localhost:8080/login",
+        "--provider=beagle",
+        // beagle
+        "--provider-url=https://cloud.wodcloud.com",
+        "--client-id=336fe21bbea699845c5212b85b2a1baafc302d3e07d270f25bc967954ed99bc5",
+        "--client-secret=04c6b83e968404eec18dc4e4f40c7c156001a50e5ae526aa8fa9c1569b1d2714"
+        // gitlab
+        // "--provider-url=https://cloud.wodcloud.com/git",
+        // "--client-id=afae23333ae89c05c012879d84308d0988c1280e57efbdc7bb54e91ad99977b4",
+        // "--client-secret=bf26d5b615b48627900a9701ac47e528752b83a7bcdc184c027443feb3faa12b"
+        // github
+        // "--provider-url=https://github.com",
+        // "--client-id=b4fcc4de1e45148e913a",
+        // "--client-secret=5d7cd1e5e570d68fb0e6802218128a2cb04c510d"
+        // gitee
+        // "--provider-url=https://gitee.com",
+        // "--client-id=70f3121fcf4e66145def0c6fad4dc36d76548eeba1d6de3e57d6ed47eea52e20",
+        // "--client-secret=9c5921717dc6da6180dd7ac407392fbbdd4fae109f89892706474ecc4ef8d2ad"
+      ],
+      // "env": {
+      //   "HTTPS_PROXY": "http://192.168.31.131:8888",
+      //   "HTTP_PROXY": "http://192.168.31.131:8888"
+      // },
+    }
+  ]
+}
