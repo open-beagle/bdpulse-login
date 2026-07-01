@@ -1,4 +1,4 @@
-module github.com/open-beagle/go-login
+module github.com/open-beagle/bdpulse-login
 
 go 1.24.0
 

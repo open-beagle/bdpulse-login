@@ -3,7 +3,7 @@ package oauth1
 import (
 	"net/http"
 
-	"github.com/open-beagle/go-login/login"
+	"github.com/open-beagle/bdpulse-login/login"
 )
 
 // Handler returns a Handler that runs h at the completion

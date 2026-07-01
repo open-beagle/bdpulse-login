@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/open-beagle/go-login/login"
-	"github.com/open-beagle/go-login/login/logger"
+	"github.com/open-beagle/bdpulse-login/login"
+	"github.com/open-beagle/bdpulse-login/login/logger"
 )
 
 // Handler returns a Handler that runs h at the completion

@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/open-beagle/go-login/login"
+	"github.com/open-beagle/bdpulse-login/login"
 )
 
 type token struct {

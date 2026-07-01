@@ -1,6 +1,6 @@
 # version
 
-<!-- https://github.com/open-beagle/go-login -->
+<!-- https://github.com/open-beagle/bdpulse-login -->
 
 ```bash
 git remote add upstream git@github.com:drone/go-login.git

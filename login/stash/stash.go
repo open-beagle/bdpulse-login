@@ -9,8 +9,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/open-beagle/go-login/login"
-	"github.com/open-beagle/go-login/login/internal/oauth1"
+	"github.com/open-beagle/bdpulse-login/login"
+	"github.com/open-beagle/bdpulse-login/login/internal/oauth1"
 )
 
 var _ login.Middleware = (*Config)(nil)

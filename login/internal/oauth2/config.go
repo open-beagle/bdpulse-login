@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/open-beagle/go-login/login/logger"
+	"github.com/open-beagle/bdpulse-login/login/logger"
 )
 
 // token stores the authorization credentials used to

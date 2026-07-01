@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/open-beagle/go-login/login"
-	"github.com/open-beagle/go-login/login/internal/oauth2"
-	"github.com/open-beagle/go-login/login/logger"
+	"github.com/open-beagle/bdpulse-login/login"
+	"github.com/open-beagle/bdpulse-login/login/internal/oauth2"
+	"github.com/open-beagle/bdpulse-login/login/logger"
 )
 
 var _ login.Middleware = (*Config)(nil)

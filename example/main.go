@@ -8,15 +8,15 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/open-beagle/go-login/login"
-	"github.com/open-beagle/go-login/login/beagle"
-	"github.com/open-beagle/go-login/login/bitbucket"
-	"github.com/open-beagle/go-login/login/gitee"
-	"github.com/open-beagle/go-login/login/github"
-	"github.com/open-beagle/go-login/login/gitlab"
-	"github.com/open-beagle/go-login/login/gogs"
-	"github.com/open-beagle/go-login/login/logger"
-	"github.com/open-beagle/go-login/login/stash"
+	"github.com/open-beagle/bdpulse-login/login"
+	"github.com/open-beagle/bdpulse-login/login/beagle"
+	"github.com/open-beagle/bdpulse-login/login/bitbucket"
+	"github.com/open-beagle/bdpulse-login/login/gitee"
+	"github.com/open-beagle/bdpulse-login/login/github"
+	"github.com/open-beagle/bdpulse-login/login/gitlab"
+	"github.com/open-beagle/bdpulse-login/login/gogs"
+	"github.com/open-beagle/bdpulse-login/login/logger"
+	"github.com/open-beagle/bdpulse-login/login/stash"
 )
 
 var (
